@@ -1,0 +1,53 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 1em;
+}
+
+#piano, #window, #lasagna {
+    width: 70vw;
+    max-width: 400px;
+    min-width: 250px;
+    margin: 0 auto;
+    border-radius: 25px
+}
+
+form {
+    margin: 0 auto;
+    width: 80vw;
+    background-color:rgb(255, 251, 245);
+    padding: 0 1em 1em;
+    border: 2px solid rgb(47, 28, 7);
+    border-radius: 25px
+}
+
+fieldset {
+    border: none;
+    padding-bottom: 1rem;
+    margin: 0 1rem;
+}
+
+input[type="text"] {
+    width: 80%;
+    margin: 0 2.25em;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  height: 2em;
+}
+
+footer {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
